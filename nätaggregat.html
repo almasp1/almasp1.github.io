@@ -8,7 +8,7 @@
   <body>
 
     <header>
-    header
+  <h1>Hur de olika delarna i en dator fungerar</h1>
     </header>
     <nav>
     <a href="index.html">home</a>
@@ -18,13 +18,25 @@
     <a href="ram.html">ram</a>
     <a href="hårddisk.html">hårdisk</a>
     <a href="chassi.html">chassi</a>
+    <a href="grafitkort.html">grafitkort</a>
     </nav>
 <div id="container">
     <main>
-      Detta är nätaggregat sidan
+      <h1>Detta är nätaggregat sidan</h1>
+      På grund av att datorer går på el så behöver de ström för att dess komponenter ska fungera på bästa sätt. Enheten som är ansvarig för att leverera ström till datorn är strömförsörjningen. Strömförsörjningens huvudsakliga funktion är att omvandla växelspänning (AC), som matas av det elektriska systemet till kontinuerlig spänning. Med andra ord omvandlar strömförsörjningen den konventionella växelspänningen 110V eller 220V till kontinuerlig spänning som används av datorns elektroniska komponenter.
+Två olika grundläggande strömförsörjningsdesigner: linjärt och switchat nätaggregat.
+
+Linjära strömförsörjningar fungerar genom att hämta 110 V eller 220 V från elnätet och sänka dess värde (t.ex. 12 V) med hjälp av en transformator. Denna lägre spänning är fortfarande växelström. Därefter görs korrigering med en uppsättning dioder, som omvandlar denna växelspänning till pulserande spänning. Näst är filtrering, som utförs av en elektrolytkondensator, som omvandlar denna pulserande spänning till nästan likström. DC som erhålls efter att kondensatorn svänger lite (denna svängning kallas krusning), så ett spänningsregleringssteg är nödvändigt, tillverkat av en zenerdiod (ofta med hjälp av en effekttransistor) eller av en integrerad krets för spänningsregulator. utgången blir likspänning.
+
+Switchade omvandlare ändrar på utmatningsspänningen så att den är större eller mindre än inmatningsspänningen beroende på vilken typ av omvandlare som används. Första steget är boost topologin vilket innebär, att omvandlaren ökar utspänningen så att den blir större än inmatningsspänningen. Steg två är buck topologin innebär att utspänningen minskar så att den blir mindre än inmatningsspänningen. Steg tre är buck-boost topologin kan både öka och minska spänningen på utmatningssidan. Steg fyra är flyback-omvandlare använder sig också av en transformator för att öka eller minska utspänningssidan.
+
     </main>
     <aside>
-      aside
+    <h1>Kom ihåg</h1>
+    Strömförsörjningen är förmodligen den mest försummade komponenten på en PC.
+     Vanligtvis när vi köper en dator tar vi bara hänsyn till processortyp och klocka, moderkortmodellen, grafikkortmodellen,
+      mängden installerat minne, hårddiskens lagringskapacitet, och vi glömmer bort strömförsörjningen, som faktiskt är den som levererar ”bränslet” för att PC-delarna ska fungera korrekt.
+
     </aside>
 </div>
     <footer>

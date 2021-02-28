@@ -52,3 +52,38 @@ a:hover {
 a:active {
   color: blue;
 }
+
+.bilder-pic{
+  width: 100%;
+  height: 430px;
+}
+
+.bilder-ram{
+  width:100%;
+  height: 430px;
+}
+
+.bilder-hårdisk{
+  width: 100%;
+  height: 430px;
+}
+
+.bilder-home{
+  width: 100%;
+  height: 430px;
+}
+
+.bilder-chassi{
+  width: 100%;
+  height: 430px;
+}
+
+.bilder-moderkort{
+  width: 100%;
+  height: 430px;
+}
+
+.bilder-grafikkort{
+  width: 100%;
+  height: 430px;
+}
